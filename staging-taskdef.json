@@ -47,7 +47,7 @@
             "dockerLabels": null,
             "systemControls": null,
             "privileged": null,
-            "name": "polygon-token-list-staging",
+            "name": "api-polygon-tokens-staging",
             "repositoryCredentials": {
                 "credentialsParameter": ""
             }
@@ -57,9 +57,9 @@
     "networkMode": "awsvpc",
     "memory": "2048",
     "cpu": "1024",
-    "executionRoleArn": "arn:aws:iam::070528468658:role/polygon-token-list-staging-TaskRole",
-    "family": "polygon-token-list-staging-taskdefinition",
-    "taskRoleArn": "arn:aws:iam::070528468658:role/polygon-token-list-staging-TaskRole",
+    "executionRoleArn": "arn:aws:iam::070528468658:role/api-polygon-tokens-staging-TaskRole",
+    "family": "api-polygon-tokens-staging-taskdefinition",
+    "taskRoleArn": "arn:aws:iam::070528468658:role/api-polygon-tokens-staging-TaskRole",
     "runtimePlatform": {
         "operatingSystemFamily": "LINUX"
     },
@@ -78,7 +78,7 @@
         },
         {
             "key": "Service",
-            "value": "polygon-token-list-staging.polygon.technology"
+            "value": "api-polygon-tokens-staging.polygon.technology"
         },
         {
             "key": "Host",
@@ -94,7 +94,7 @@
         },
         {
             "key": "Name",
-            "value": "polygon-token-list-staging-taskdefinition"
+            "value": "api-polygon-tokens-staging-taskdefinition"
         }
     ]
 }
