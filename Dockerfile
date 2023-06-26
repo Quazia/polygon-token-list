@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the build files from the dist folder to /usr/share/nginx/html
-COPY dist /usr/share/nginx/html
+COPY build /usr/share/nginx/html
 
 # Expose the desired port (default is 80 for NGINX)
 EXPOSE 3000
